@@ -1,0 +1,67 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#                  version : release                  #
+#                   logger : webkb                    #
+#                     cuda : True                     #
+#                     seed : 2                        #
+#                data_name : webkb                    #
+#             max_features : 2048                     #
+#               max_length : 32                       #
+#               batch_size : 128                      #
+#              num_workers : 0                        #
+#            num_neighbors : 10                       #
+#                  dropout : 0.1                      #
+#           feature_length : 128                      #
+#             num_clusters : 4                        #
+#                      tau : 0.5                      #
+#                     zeta : 1.0                      #
+#                    alpha : 10.0                     #
+#                     beta : 0.1                      #
+#                      eta : 10.0                     #
+#                      pre : True                     #
+#                   lr_pre : 0.0003                   #
+#               model_name : webkb                    #
+#                 lr_sbert : 5e-06                    #
+#                     lr_b : 0.0005                   #
+#              lr_gaussian : 1e-05                    #
+#                     lr_t : 0.001                    #
+#                countdown : 5                        #
+#              num_updates : 100                      #
+#               num_epochs : 50                       #
+#                logarithm : True                     #
+#        verbose_frequency : 10                       #
+#                  epsilon : 0.01                     #
+#                zeta_init : 1.0                      #
+#               zeta_decay : 0.5                      #
+#                     mask : False                    #
+#               confidence : 0.99                     #
+#                     type : aot                      #
+#           regularization : 0.1                      #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # #
+### pre-train start
+epoch:   0 loss:  562.75 time: 0:00:00
+acc_kmeans, nmi_kmeans:   30.37    1.08
+neighbor precision:   71.34
+*** prediction changed, copying
+*** prediction changed, copying
+*** prediction changed, copying
+*** prediction changed, copying
+*** prediction changed, copying
+*** prediction changed, copying
+*** prediction changed, copying
+*** prediction changed, copying
+*** prediction changed, copying
+*** prediction changed, copying
+epoch:  10 loss:  495.77 time: 0:00:00
+acc_kmeans, nmi_kmeans:   62.81   43.74
+neighbor precision:   77.31
+*** prediction changed, copying
+*** prediction changed, copying
+*** prediction changed, copying
+*** prediction changed, copying
+*** prediction changed, copying
+*** prediction changed, copying
+*** prediction changed, copying
+*** prediction changed, copying
+*** prediction changed, copying
+*** prediction changed, copying
+epoch:  20 loss:  482.07 time: 0:00:00

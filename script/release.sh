@@ -32,6 +32,30 @@ then
     eta=5.0
     num_updates=100
     regularization=0.001
+elif [ $1 == 20newsgroups ]
+then
+    num_clusters=20
+    eta=10.0
+    num_updates=100
+    regularization=0.1
+elif [ $1 == bbc ]
+then
+    num_clusters=5
+    eta=10.0
+    num_updates=100
+    regularization=0.1
+elif [ $1 == reuters8 ]
+then
+    num_clusters=8
+    eta=10.0
+    num_updates=100
+    regularization=0.1
+elif [ $1 == webkb ]
+then
+    num_clusters=4
+    eta=10.0
+    num_updates=100
+    regularization=0.1
 fi
 
 for seed in {0..4}
