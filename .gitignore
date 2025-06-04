@@ -1,6 +1,7 @@
 # Data and model directories
 data/
 model/
+logger/
 
 # Python
 __pycache__/
