@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Check if dataset name is provided
+if [ -z "$1" ]; then
+    echo "Error: Please provide a dataset name"
+    echo "Valid datasets: agnews, biomedical, stackoverflow, googlenews-s, googlenews-t, googlenews-ts, searchsnippets, tweet, 20newsgroup, bbc, reuters8, webkb"
+    exit 1
+fi
+
 # python main.py --version release
 
 if [ $1 == agnews ]

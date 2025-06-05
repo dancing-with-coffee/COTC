@@ -344,6 +344,9 @@ class Runner(TemplateRunner):
                 or self.config.data_name == "biomedical"
                 or self.config.data_name == "stackoverflow"
                 or self.config.data_name == "webkb"
+                or self.config.data_name == "reuters8"
+                or self.config.data_name == "20newsgroups"
+                or self.config.data_name == "bbc"
             ):
                 mu, p = kmeans(
                     z, n_clusters=self.config.num_clusters, n_init=50, metric="ss"
